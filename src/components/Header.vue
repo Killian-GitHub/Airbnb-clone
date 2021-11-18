@@ -52,6 +52,9 @@ header {
     border: 1px solid lightgray;
     border-radius: 999px;
     box-shadow: 1px 1px 4px lightgray;
+    @media screen and (max-width: 740px) {
+      margin: 0 auto;
+    }
     @media screen and (min-width: 950px) {
       margin-left: 16%;
     }
