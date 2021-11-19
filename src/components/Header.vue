@@ -1,6 +1,8 @@
 <template>
   <header>
-      <i class="fab fa-airbnb logo" />
+      <router-link to="/">
+        <i class="fab fa-airbnb logo" />
+      </router-link>
       <div class="search">
         <input type="text" placeholder="Commencez votre recherche">
         <i class="fas fa-search search__logo"/>

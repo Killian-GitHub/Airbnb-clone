@@ -1,7 +1,7 @@
 <template>
   <main>
         <Banner />
-        <section>
+        <section class="row">
             <Card 
                 src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
                 title="Expériences en ligne"
@@ -18,7 +18,7 @@
                 description="Des lieux privés confortables, avec de la place pour les amis ou la famille."
             />
         </section>
-        <section>
+        <section class="row">
             <Card
                 src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
                 title="Appartement de 3 chambres à Deauville"
@@ -55,8 +55,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-section {
+.row {
     display: flex;
-    padding: 30px;
+    padding: 20px;
 }
 </style>
