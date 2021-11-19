@@ -1,12 +1,14 @@
 <template>
-  <section>
+  <section class="banner">
       <div class="info">
           <DateSearch />
           <h2>
               Sortez et étendez votre imagination
           </h2>
           <p>Planifiez une escapade pour découvrir les trésors cachés près de chez vous</p>
-          <button class="info__btn">Explorer à proximité</button>
+          <router-link to="/search">
+            <button class="info__btn">Explorer à proximité</button>
+          </router-link>
       </div>
   </section>
 </template>
@@ -27,9 +29,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    section {
+    .banner {
         background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center;
-        height: 358px;
+        height: 380px;
         position: relative;
         h2 {
             font-size: 20px;
@@ -38,9 +40,9 @@ export default {
     }
 
     .info {
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.8);
         color: white;
-        padding: 45px 50px 60px 50px;
+        padding: 57px 50px 70px 50px;
         width: 250px;
         .info__btn {
             background-color: #ff7779;
