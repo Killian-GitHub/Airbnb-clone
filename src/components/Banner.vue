@@ -57,6 +57,7 @@ export default {
                 cursor: pointer;
                 background-color: #fefefe;
                 color: #ff7779;
+                transition: 0.4s;
             }
         }
     }

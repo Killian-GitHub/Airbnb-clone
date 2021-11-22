@@ -5,7 +5,9 @@
       </router-link>
       <div class="search">
         <input type="text" placeholder="Commencez votre recherche">
-        <i class="fas fa-search search__logo"/>
+        <router-link to="/search">
+          <i class="fas fa-search search__logo"/>
+        </router-link>
       </div>
       <div class="menu">
         <p>Devenez hôte</p>
@@ -59,6 +61,7 @@ header {
     }
     @media screen and (min-width: 950px) {
       margin-left: 16%;
+      width: 100%;
     }
     input {
       border: none;
